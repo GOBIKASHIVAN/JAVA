@@ -1,0 +1,30 @@
+package org.scanner;
+import java.util.Scanner;
+import java.io.File;
+
+public class Sc {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		String s = sc.nextLine();
+		System.out.println("S:"+s);
+		String st=sc.next();
+		System.out.println("ST:"+st);
+		int i = sc.nextInt();
+		System.out.println("int:"+i);
+		byte nb =sc.nextByte();
+		System.out.println("byte:"+nb);
+		short ns=sc.nextShort();
+		System.out.println("short:"+ns);
+		float f=sc.nextFloat();
+		System.out.println("float:"+f);
+		long l=sc.nextLong();
+		System.out.println("long:"+l);
+		boolean b=sc.nextBoolean();
+		System.out.println("bool:"+b);
+		double d=sc.nextDouble();
+		System.out.println("double:"+d);
+
+	}
+
+}
