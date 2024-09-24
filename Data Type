@@ -1,0 +1,38 @@
+package org.emp;
+
+public class Employee{
+	public static void main (String[] args) {
+		String name="GOBIKA";
+		System.out.println("Name:"+name);
+		
+		byte age=17;
+		System.out.println("Age:"+age);
+		
+		long mobile=6383955920L;
+		System.out.println("Mobile no:"+mobile);
+		
+		short salary=30000;
+		System.out.println("Salary:"+salary);
+		
+		float z= 5.25465768790097754F;
+		System.out.println("Float:"+z);
+		
+		int reg_no=3017;
+		System.out.println("Reg no:"+reg_no);
+		
+		double y=2.864224690964224579007532467900;
+		System.out.println("Y:"+y);
+		
+		char gender='F';
+		System.out.println("Gender:"+gender);
+		
+		boolean pass=true;
+		System.out.println("Pass:"+pass);
+		
+		
+		 System.out.println("Name: " + name +
+				 ",Age: " + age + ", Mobile no: " + mobile +
+                 ", Salary: " + salary + ", Float: " + z + ", Reg no: " + reg_no +
+                 ", Y: " + y + ", Gender: " + gender + ", Pass: " + pass);		
+	}
+}
